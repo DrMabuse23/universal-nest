@@ -4,7 +4,7 @@ import { DOCUMENT } from '@angular/common';
 import { WindowService } from '../../services/window/window.service';
 
 @Component({
-  selector: 'home',
+  selector: 'app-home',
   template: `
     <h3>(Third party library) Dragula Example</h3>
     <div *ngIf="isBrowser" class='wrapper'>
